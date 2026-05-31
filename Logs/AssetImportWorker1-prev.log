@@ -1,0 +1,1261 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Marius" at "2026-05-30T00:39:16.9411838Z"
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-30T00:39:16Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/School/QUT/IGB388/IGB101-Assignment-3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50942
+-licensingIpc
+LicenseClient-Marius
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/School/QUT/IGB388/IGB101-Assignment-3
+D:/School/QUT/IGB388/IGB101-Assignment-3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [23776]  Target information:
+
+Player connection [23776]  * "[IP] 10.0.0.12 [Port] 0 [Flags] 2 [Guid] 4204830302 [EditorId] 4204830302 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-10BTGBN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/School/QUT/IGB388/IGB101-Assignment-3/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 6650 XT (ID=0x73ef)
+    Vendor:          ATI
+    VRAM:            8147 MB
+    App VRAM Budget: 7379 MB
+    Driver:          32.0.21043.10005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009347 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (343ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (199ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (321ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (384ms)
+				TypeCache.ScanAssembly (360ms)
+	FinalizeReload (658ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Marius"
+[Licensing::IpcConnector] LicenseClient-Marius channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Marius-6000.4.0" at "2026-05-30T00:39:20.613737Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              bd916fad247d441da2b0fc7395e37fa6
+  Correlation Id:          a673dd9697284ffb887fe5e3aea90321
+  External correlation Id: 168468239886493930
+  Machine Id:              y/MvuSKsyWDfieVo3Lj/6Sp878E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Marius-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.92s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Marius-6000.4.0-notifications" at "2026-05-30T00:39:23.5323123Z"
+[Licensing::Module] Licensing Background thread has ended after 6.59s
+[Licensing::Module] Licensing is initialized (took 3.08s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768057548538-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-IGB101-Assignment-3
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 4972ms
+	BeginReloadAssembly (3452ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (563ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (783ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (34ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3184 unused Assets / (7.1 MB). Loaded Objects now: 3793.
+Memory consumption went from 111.0 MB to 103.9 MB.
+Total: 12.558100 ms (FindLiveObjects: 0.727000 ms CreateObjectMapping: 0.305800 ms MarkObjects: 7.536000 ms  DeleteObjects: 3.985500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2683.615292 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  importAddress: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e88a1e65565f9263c3763a3f2fde163c') in 0.1621877 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc5bc13cbd640fddff7d49b46687c08b DependenciesID=605ea2213ca3bb1f4d99fd6bc5e55f86 StaticDependenciesID=f2f0736f3a5db41089dc2de22e52e727 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3-wal
+  importAddress: Guid(4c2a1fe154902074092f481a97145bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3-wal using Guid(4c2a1fe154902074092f481a97145bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f064d4d57a642d812c1b9841961e55a0') in 0.0111792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a5fc519cd06693f7ff85f0f9e7c22c1 DependenciesID=968b524e2b3ff8b5b1c395cb5df218e6 StaticDependenciesID=a6c962b9178a2d23bd98d63eec7119d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Marius N11608412/Scenes/SampleScene.unity
+  importAddress: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d0ccdf2c2eccfed6e43407cf132126b') in 0.0127787 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07b0a0024f5e48dd8a9a7885389e43de DependenciesID=4d3f3cfd6fa990539bf924a1c6b9179b StaticDependenciesID=11529af6dfcab40322652561a3159e47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundDiffuse.png
+  importAddress: Guid(689684de78548ad48ac5c0d11ab47667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundDiffuse.png using Guid(689684de78548ad48ac5c0d11ab47667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '637415e5749abb48ac9a39df298f4235') in 0.0703203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df0d0118674256c3bbb0d19a5545220d DependenciesID=f92d2acbb81553f142daad761f72898b StaticDependenciesID=788b6cf37f50fe2a25caad485f9e27a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Marius N11608412/Prefabs/Wood Dungeon #1.prefab
+  importAddress: Guid(a3cc1ea812b56c146a49d97794e30ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Prefabs/Wood Dungeon #1.prefab using Guid(a3cc1ea812b56c146a49d97794e30ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db05b8bb1a7c852e89cb59107995883f') in 0.0507539 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cc39921ca2717ccd3392b8767776f7c DependenciesID=337c11a754349390b959d7bdde8e6eb9 StaticDependenciesID=4089256821e296f821bf34b25d046e0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1160
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Animations/running.fbx
+  importAddress: Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Animations/running.fbx using Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0a6f711b3a7f39254c2f5220d1b19ea8') in 0.236778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a9b754f0a582178e9d832fb57cafe9b DependenciesID=634575b34e3691e78e725a86751386e9 StaticDependenciesID=7d4fd8652f86cbf4d704b38880325e3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat
+  importAddress: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ccbc65c6db061b9b1cb14e1ab206804') in 0.0291821 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df412d9bafa9db4a951e963dfff818d8 DependenciesID=0f375bf8ad1fbdaee73d0b63ad811db0 StaticDependenciesID=fcaf68fcdb83c8fee0bfefc4aa12fe93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+  importAddress: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '110b2a9a052d7fa6188cba5526ffeb94') in 0.0160692 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de34f0a5c798369998df50ae71136380 DependenciesID=9f46149e12f7da34580d6643e2339d81 StaticDependenciesID=d5701af6d3c357f3f606be7992dc20bf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
+  importAddress: Guid(6b1d9786203d21246bc448213b0f9aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png using Guid(6b1d9786203d21246bc448213b0f9aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e451f8ac2bd5662d42359d3a723cf4e') in 0.023337 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94556b063aa479d4d4563fc98442e154 DependenciesID=7ca26a25d5ceb00f5826d96705805b06 StaticDependenciesID=92b116bc4c8923917c4f4ed8adcf7de6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Settings/SampleSceneProfile.asset
+  importAddress: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dbf7b5cb50d71fc4867ec28cf92f7c77') in 0.0204196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30f28c9e23943582e75e4fa2dffb77a7 DependenciesID=e055dc0437ee03dc519631efd4cae912 StaticDependenciesID=86e3ab624df47bc93621d2a05b042c79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Animations/waving.fbx
+  importAddress: Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Animations/waving.fbx using Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12eb39b05a17f1df18878198d22dc4e5') in 0.0308214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3692d103d775199fadf2bf5910afe062 DependenciesID=5a4e988b95e059f038db963a0cddd9fa StaticDependenciesID=18e2209ac2c1216491e6dad474c340d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  importAddress: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ef4b8fb01f097949a2ec06e0676c391') in 0.0377822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32d86ffef68d945024df2d625f716387 DependenciesID=afc5da04fdbbaec7384850431f6f9974 StaticDependenciesID=2e70c7206d9e4ef7fea767e8a8a682a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/ThirdPersonCamera.cs
+  importAddress: Guid(603f62e329c61f5449301f9feba6a45f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/ThirdPersonCamera.cs using Guid(603f62e329c61f5449301f9feba6a45f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b153a45b8780e6c835fd08a26dcb1b74') in 0.0131172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fca5f11d7d0797e5601dc0f61b3bd07 DependenciesID=49620d3701f7a743d613cf395a28241e StaticDependenciesID=86800e5ff92e7890221b5fb53e5b9876 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Scenes/IGB101 Assignment 1 n11608412.unity
+  importAddress: Guid(c673e7eed29990e4892295229706b436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Scenes/IGB101 Assignment 1 n11608412.unity using Guid(c673e7eed29990e4892295229706b436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b836d0b01a31e30e2f9f98e47cec000a') in 0.0176381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d21d10a04ce1d631fdab3709e6738c1 DependenciesID=6a2e799916ce2092a076bc3299a17711 StaticDependenciesID=2b922bd0a977ae35af940ca10b29f52e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Workshop 3 Materials/wood texture.jpg
+  importAddress: Guid(50faadb312c68264691914914977498b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Workshop 3 Materials/wood texture.jpg using Guid(50faadb312c68264691914914977498b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c85b38dc542e052a74815e33d8613eb9') in 0.0177161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97cbfe3ad33949e180efea48e29b98d3 DependenciesID=d4b5db9b44fffc34e817b2cd9f1a1f76 StaticDependenciesID=8d9959313ba507934d9672ff281ba80d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3-shm
+  importAddress: Guid(b23227234eb21a549bae5d0b384e6e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3-shm using Guid(b23227234eb21a549bae5d0b384e6e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed0873b09d8efc44a1b3207202d9b890') in 0.0126628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcb49af5fc32085c10682e6ded7195c4 DependenciesID=c49291db6e5ca01f7368b17fed9af074 StaticDependenciesID=1acbfbcc5f3b198856b4e43951ff9e3e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  importAddress: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '121b8bef5d61681f74641d858fad8561') in 0.0611111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=006dfe476f3cbf95e6e1f83795bba4d5 DependenciesID=88ab90c127d66d0d7ee6c1f19c6a2fba StaticDependenciesID=f24aa01374016caa59713b859ae89089 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  importAddress: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a891aec98f740b8d71f587998513136a') in 0.0122422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dbcd583ee064eb0a3576dec0a2e1ac2 DependenciesID=9880e2cc8581c004e12a1775f90cb063 StaticDependenciesID=b2e4bad493ac3537cb302ac08a5c77f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png
+  importAddress: Guid(88c467166db994146961f1ecc5fc214e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1892e63660b43247e9dae987a7946353') in 0.0197782 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a455c2b66cff3ee67161f957cba3dc5 DependenciesID=e76713db9dcdb5e80c199162562566af StaticDependenciesID=a0a8f8992c81bb8fd0f30b3a1aa7a23e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3
+  importAddress: Guid(58455a398f7c45849b97ae4377a7fa19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Audio Clips/thunder rumble.aup3 using Guid(58455a398f7c45849b97ae4377a7fa19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bcb79baf8f77f977a9717c526b5afc5') in 0.0127739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ac05b68f3578e1506dd2989391a370e DependenciesID=3c31977be0dd03e7b093a9dfc61ac9c0 StaticDependenciesID=b1788a5340d90f491e243adb77f45f09 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  importAddress: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '072de3280624e0b0a9e3f643959348ed') in 0.0129524 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78294d0e85b6ccc0547021393e947b84 DependenciesID=a578f7175b39fdf13d460b2e1918207e StaticDependenciesID=149e413d0571861b315a3fb4601c570f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Animations/t_pose.fbx
+  importAddress: Guid(1d553d340c6ed564da93547ec4058847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Animations/t_pose.fbx using Guid(1d553d340c6ed564da93547ec4058847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Marius N11608412/Third Person Controller/Animations/t_pose.fbx)
+ -> (Import Result ID: '00ed999e5cf691266b32072561bddc0b') in 0.0304484 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85e971b91086607b2a0cb299b1b2eee0 DependenciesID=2c7d7bebbfc7f68fe4e23a08c9c86da3 StaticDependenciesID=df28ad9eef9d3490bb4d61a7ac1b1ae3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Prefabs/Stone Dungeon #2.prefab
+  importAddress: Guid(a2804d948dfc1ad49807ccd6648daee6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Prefabs/Stone Dungeon #2.prefab using Guid(a2804d948dfc1ad49807ccd6648daee6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f224f9dc654c5f03a3dd7746e24cb1d7') in 0.0309655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3100d23b7e31f13894f5986c27f49d0c DependenciesID=141dfde276156ca07abdf69fcd7c831d StaticDependenciesID=339bd355c38e70c77aa3f833c55bf02d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1434
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.png
+  importAddress: Guid(9183c8173b34a5741a60673a672347cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.png using Guid(9183c8173b34a5741a60673a672347cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d4d1a3b9de5fba808fd0abe97bdc721') in 0.0222378 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bafe44874bae75b7f83b92e52b14f6fd DependenciesID=344b8f6cdde0a3729879a528b2a5e563 StaticDependenciesID=84026c0bdc29314cf24a6b610a64b777 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat
+  importAddress: Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat using Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '48fbff21eed71dcd8d9d98ac0b9dd9bb') in 0.0234298 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c54e37237f952d8147948caa78cef85 DependenciesID=584d4fb29f3989be3f420c977009d780 StaticDependenciesID=b35e1d86cf1d3e2bcf961d3ceaf4ea42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat
+  importAddress: Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat using Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd400348d5a49bbb8930f190d1ee296d2') in 0.01696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ea2726d358f4eeae6d70f79109bb6c0 DependenciesID=e6eea4934dd16684f84d14a3322e0f4f StaticDependenciesID=bf6f3b6608eb2588849b893e28148fa3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png
+  importAddress: Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png using Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '20969340e2d866296c9702910c726a8c') in 0.0185043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ee57bf8f6ff3098bcb5e928dae4d714 DependenciesID=1cbb922b1f067902b305215272a370b8 StaticDependenciesID=276148025321d4f85784a6278c758870 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat
+  importAddress: Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6fc8b89ad52eae9f463011567f2a7ae6') in 0.0180635 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f8d870ce36cb9962bf7fa4d2bd88543 DependenciesID=4886614fae68c59f3d136f257a390e99 StaticDependenciesID=75e6c0d817346aedd0ea6ff4126ec077 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png
+  importAddress: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1d864b6ba1ee30d03fe9be485dd379e') in 0.0197135 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d01daa9e958aef4d4039fca6089961fb DependenciesID=e6f902900839713ebf7ed8ff0d3132fd StaticDependenciesID=cc33cdcedc0915858b0925f7b70783ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png
+  importAddress: Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png using Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff79ddd435598484d2e2777454ef1421') in 0.0205273 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf9cc9bd702dd9022423f75adc391acc DependenciesID=36cc68a6651569ce0ba7c0d043d588ce StaticDependenciesID=ec2ca85744109ba81d64d5b94bef526b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+  importAddress: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5cd10988e4c3de0003de4677e7799731') in 0.0162726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb0fb91243c8f580b11e044fa0d84266 DependenciesID=6d31cb0f2d5179532d3987ba23185e13 StaticDependenciesID=529364dbee72aad675da5ba5b31576bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png
+  importAddress: Guid(7deb3454b299fae498f2365d40aee326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png using Guid(7deb3454b299fae498f2365d40aee326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4941e8d4c31b91bddc2fb2fbb2b3cf21') in 0.0184589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e0927c4922eab3bb2d64f49d57f2e44 DependenciesID=dd4a4e35917dcad65f64af1800c533b7 StaticDependenciesID=a565de39bc03c3e2d2902231acf5d532 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat
+  importAddress: Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat using Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b907e83d3a9c3287f7a2ab63afae410b') in 0.0168485 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c82a48fd5dc3712d65c35bda6ac15e42 DependenciesID=9abf0f694641b15ae74b8b4fd60881ad StaticDependenciesID=f26e8e0e595bc294204db1a3334ee98d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png
+  importAddress: Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png using Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '411470d24f0e5bbacc38c9e5806e8d60') in 0.0200097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=483b6df752c69523300a898c82a5da55 DependenciesID=8af8578ab5506b0ed2fefcbc718c7911 StaticDependenciesID=99e70dfb44e9aee2ac99469061358474 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png
+  importAddress: Guid(13ec4f589b2340646969832fc2e68ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png using Guid(13ec4f589b2340646969832fc2e68ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e6ebb2cd6484f0c368348a75569dc65') in 0.015606 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=313c1ea2918ad547e7a976f6c3e6cf03 DependenciesID=5f68abc83b2ce68e9f199358343534b2 StaticDependenciesID=61fa5d03a10bb60be0a6360f5aa77da2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
+  importAddress: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '898ddb6c3bef65f9107b885455318334') in 0.0168799 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=caaf93c9414be48c3be4ad8670c591b0 DependenciesID=5f1f80f0261513478a902f95e0d3cefc StaticDependenciesID=d5440f6ffd2badcfd552a2531c5999cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png
+  importAddress: Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png using Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dc323ff925916fe22e80fdf32c8f7176') in 0.0205782 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc3f6ddf1b24fc283d26761aa9aa2c6d DependenciesID=3a63c12e056b81aa1b938491a5178153 StaticDependenciesID=c9f244b28a651e6c24eee4736704d20d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png
+  importAddress: Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png using Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '145fb51d9cccca5a83d3b3784d45b419') in 0.0206946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ec5ed23ece166e0857899c3ecf58a07 DependenciesID=3d4b17f75788793e1aa62456c0493cdf StaticDependenciesID=6db0257c29ebcd516fa9576fe251c8b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  importAddress: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '89806e129383ae4a7ec5f19055eaf8eb') in 0.0149566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c6141e90efce704b60de14f6bf7211f DependenciesID=fd25dbe7ec0306ade7312a98820a00f3 StaticDependenciesID=a81e5bd42182df2690e5bdad867634f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat
+  importAddress: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4bc1e8352b949906a83396827ba0960d') in 0.0156352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25dfcdb0dcb1c35204540a07ddb579e9 DependenciesID=601e1a55b5b309449a9f3d71be14282c StaticDependenciesID=d0bc3993f0566343b37c72708998972e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat
+  importAddress: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '721f14de3deedc70bd6bfcba171981ba') in 0.0163548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30cd66fec0afa118d5e4cff85c9bd112 DependenciesID=9a52049d9b0787c28eb2596af67ba1ed StaticDependenciesID=75ba448b6c6e08eb5764c36881c5aa0a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Smoke.mat
+  importAddress: Guid(b5ac6faab9ab3554eb3f22c5c2cd2864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Smoke.mat using Guid(b5ac6faab9ab3554eb3f22c5c2cd2864) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ab1b255370e4e5fa0c8724f1feeca77') in 0.0165015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=351e703e7d6db19dfe944101b2ad1815 DependenciesID=1715f1b77c69651c5aa80badd6f8a71e StaticDependenciesID=ab9c62dd9f092a694fa4b0c3450e6304 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat
+  importAddress: Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat using Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9231098f1be3cfa0ee8b8c3754d27e3f') in 0.0162227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31f4da32a171e64232f7f8dd2c8be7c2 DependenciesID=60c9dace519297011265e5cb57f0fe16 StaticDependenciesID=419429cd2dd8f3d24d88780ba84c6a79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundNormal.png
+  importAddress: Guid(4cbba492d4b252448896afefcc51ca70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundNormal.png using Guid(4cbba492d4b252448896afefcc51ca70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd9f89e1baecfd0bbf05d32c3ecba4db') in 0.0186934 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eea1069974fbcef06f1657701f24ab1b DependenciesID=df0baa7bc6a97bbfb4cb463f03bde0e1 StaticDependenciesID=ceadedc45c4b16bb64f05a9f896cd6c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Prefabs/Stone Dungeon #2 (1).prefab
+  importAddress: Guid(af168f5f122d7d849bbdd283e3a76784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Prefabs/Stone Dungeon #2 (1).prefab using Guid(af168f5f122d7d849bbdd283e3a76784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '173f0669e5969b313ac53d5728fca4f3') in 0.0200072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec6fbd4284be8bf5be3de24976b7c2bd DependenciesID=3029a025041b93c912b403086197ced3 StaticDependenciesID=9f5a1ea5b5c24f1e46328b1e49bcf6b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 348
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.png
+  importAddress: Guid(90bac99dc822bf641b140cdc291b845e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.png using Guid(90bac99dc822bf641b140cdc291b845e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24471f59cf93ac2f9d47b3f4454897bd') in 0.0196622 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3df5d7e3520d1b67b6c6f55643366ab DependenciesID=45f85b785a9b6466e0b89455f85adeee StaticDependenciesID=afa72187c12f29a3d01e5528a1183d23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png
+  importAddress: Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png using Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '435f371b6c76a17b763b7de45e553b62') in 0.0203475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c87c2081b67a697250ea3db31e530dd4 DependenciesID=bf8faf1d19532bca36526b04e1c133d1 StaticDependenciesID=a44de508cf3e929b3951ed2ada937d4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Corner-Wood-Model-03.fbx
+  importAddress: Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Corner-Wood-Model-03.fbx using Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5af2462cf19a9202f733ee660feb793') in 0.0400026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=108e3eff9d85095473f786b1887cedda DependenciesID=593f079a27a819082dfb91dc2dac117d StaticDependenciesID=7a93e565ed6a2977f9339e352b068720 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Demo Scenes/Demo DungeonsSettings.lighting
+  importAddress: Guid(3d3a8e2133698d843adbea238156c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Demo Scenes/Demo DungeonsSettings.lighting using Guid(3d3a8e2133698d843adbea238156c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '89cacbcc2a09b08d32bd337ca6fc2c60') in 0.0244129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec74ad06d9a95af776275c799a1c1831 DependenciesID=e536a820cbc02d9e687b895c3681a75b StaticDependenciesID=59eb430d6527515198a4773472465cd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-01.fbx
+  importAddress: Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8108c83e361a7bf660de93a4c09a4276') in 0.0243474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b487e0c1afe581f1bd2800939d82ed3 DependenciesID=08eb204c0c785eb72b339d40315da4a4 StaticDependenciesID=c3d60aa131ac68e56be7484dad303d8b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/ReflectionProbe-0.exr
+  importAddress: Guid(3fe0763a27d4f644b9d49b9a37756022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/ReflectionProbe-0.exr using Guid(3fe0763a27d4f644b9d49b9a37756022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1384c6aa6a2b728422cd12778cf83ee') in 0.0467725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc3d9707ef1c71aa6f30bfced9c8caad DependenciesID=b9ab50593fca9c2c5e653bef82a03950 StaticDependenciesID=ecb84d5039c4b256ef5b29b54ee507f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat
+  importAddress: Guid(39d27e80110a983468075fd1868610d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat using Guid(39d27e80110a983468075fd1868610d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '840f87cb1c5a5f0b5806b3c30e957161') in 0.0179932 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93ae802f2a334a9da7287b2c1a278db1 DependenciesID=24abd97b64ff9fc9a15fb2b5a89aa2b6 StaticDependenciesID=832438bfebad9a7e1b2610279caa5fb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-11.fbx
+  importAddress: Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-11.fbx using Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '84e2723c31017703f2b00ea7aa343c9d') in 0.0695739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db3be8e34b976d3e1de67d70ca633849 DependenciesID=578378251168d81d15dcefecce63fc47 StaticDependenciesID=bdec7b164d571c31bccf72c85f3d25e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-07.fbx
+  importAddress: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '550076a98dab5bec77190af57d090920') in 0.0224493 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b4d6238f8f24207674985c90dbea04f DependenciesID=bebbb5aa4bdfad70eef119e327a2c06f StaticDependenciesID=b87647b74432f3d5be908249577d670e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Robot Kyle/Textures/Robot_Color.tga
+  importAddress: Guid(0a0e8af2869fa45f78e25460db578482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Robot Kyle/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ef4ac412e4900991fa019a7a63b30b7e') in 0.0179912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b05ae49792293a4c4dc478926eb4488d DependenciesID=22b46b176ffc22d0e659f956b7f34ed2 StaticDependenciesID=ce969400f73e3d4c12124370ef192af7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Corner-Wood-Model-01.fbx
+  importAddress: Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Corner-Wood-Model-01.fbx using Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '56e470758b17c0a5279ced066b94d96f') in 0.0241851 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be56d5e347d01bb7224743e08082a2ab DependenciesID=614ddf360c549fc16ebbf4908d316832 StaticDependenciesID=ca21948c7f657331132883cf6dc9761d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-06.fbx
+  importAddress: Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-06.fbx using Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a15229bde9fb80808b7873c95617bfc7') in 0.0415436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81dcfc07eb1fb5b50b1e2d82cd2b7831 DependenciesID=d22d8d61d2504ccf5c56e2aecd896811 StaticDependenciesID=6fe4a2b3f08eac7a90c56ec889f1667e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-09.fbx
+  importAddress: Guid(7d15d5e86b6abe149aae4a97839483bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-09.fbx using Guid(7d15d5e86b6abe149aae4a97839483bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b0cdd6f7a6d85fdaa16bb701c18f5f5') in 0.0329316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4325516113eaa89a242f2f9b6fc2aff9 DependenciesID=80304c37397db6321f1b55a3df2b143a StaticDependenciesID=037f2131fd0386f8fe24283e258bfd32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-08.fbx
+  importAddress: Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-08.fbx using Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '172d1c59c056f39a72604d8bbbe2979e') in 0.0393981 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bdb6b540c2630fa8f86a73dcb882ee3 DependenciesID=b0fb190ee8cfd17682a15e64a694043d StaticDependenciesID=5702f861381a1701251d8a0ec8c72d1e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Door-Wood-Model-03.fbx
+  importAddress: Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Door-Wood-Model-03.fbx using Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd14477e59122373939e74286e6191b0a') in 0.0218151 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fa68817efcdb04dfa223f2774c33a14 DependenciesID=76b6c53c52aca0c3d57a1da612ca6996 StaticDependenciesID=2fde168b6270c9d9292755fe5cce4251 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Demo Scenes/Demo Dungeons/ReflectionProbe-0.exr
+  importAddress: Guid(b3ccbf365036cc347a11c189cf3ceaf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Demo Scenes/Demo Dungeons/ReflectionProbe-0.exr using Guid(b3ccbf365036cc347a11c189cf3ceaf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '592e77a2198904b69faa840540e5d235') in 0.0185049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=909a0d699b85975c9203ff70bb79afb4 DependenciesID=6734f0da44bcdd920a8ea6e64d1f0a94 StaticDependenciesID=3529da378b443e38934ba7e340c5040f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-04.fbx
+  importAddress: Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-04.fbx using Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a14e8993b0632311a20749ddde3c5ab7') in 0.0216816 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa52be4525975aa6432199ce138b34b0 DependenciesID=1b25ab58cf12c6e72dd89bdd1a454f73 StaticDependenciesID=96780fe7942a6e13da73f243a4f54c4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-01.mat
+  importAddress: Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-01.mat using Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de55832504da35c20655f4299501a362') in 0.0165256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abe4f9efc751114768744fdf9f12c061 DependenciesID=e21d9eaa10f4c0e5b044ee0685a3743e StaticDependenciesID=441aaa9b9cef4a9662fd9869937a63e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-01.png
+  importAddress: Guid(853428089451e744cb46c7d275ad0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-01.png using Guid(853428089451e744cb46c7d275ad0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dc63617d61f6fb48e0213ac8294c951d') in 0.016997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ff6f5e3749f0b182df44843ae541e65 DependenciesID=63fbd56f903c3def90e602ab55f30390 StaticDependenciesID=8902ba103133c09a398b5bdf898ad446 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-07.fbx
+  importAddress: Guid(55bf89779428ca0408a0ac364f64acdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-07.fbx using Guid(55bf89779428ca0408a0ac364f64acdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a0eb0dd0a65b17fb3af09baf171b3a23') in 0.0265992 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d80b93ab134288bcd2b437af6a3c18ca DependenciesID=39996a840d7c006c25f49d6c0576fa39 StaticDependenciesID=09d98dca71290fa3bb42b1254f50464f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-01.mat
+  importAddress: Guid(9ea8f35b013d57543844fb8784445267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-01.mat using Guid(9ea8f35b013d57543844fb8784445267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bde02c199d51fe8e6c4367fbcbdf5591') in 0.0138382 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=325ba55c86c7c8a6891dfb98a9d00491 DependenciesID=5cf11279fd9392968ccbb9f6d41e9fd3 StaticDependenciesID=5d6dc9e1776a6f33ab080ce1a7c11f22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Door-Stone-Model-01.mat
+  importAddress: Guid(204b0ea5595393c4d950b931f84f64a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Door-Stone-Model-01.mat using Guid(204b0ea5595393c4d950b931f84f64a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66793dd0876393dce43776c615613de0') in 0.0146853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10bd4b401210547b1cecd4a5b3cf1762 DependenciesID=5e11a25f955c285765131d96a66f67f8 StaticDependenciesID=4e6bf0421b7a1c6cf31cb7a1d32181d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-03.png
+  importAddress: Guid(ce1573c7ae88f1743a2e76e73e14c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-03.png using Guid(ce1573c7ae88f1743a2e76e73e14c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3a10bec3de1f3fec2a2b66e8a49fb0a') in 0.0158922 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aea0bfbed44052a74b3cc038a7bc7896 DependenciesID=0c5fafafcaa59db1c61f3ed6c6f4603c StaticDependenciesID=041640c7faab49f2cd1e1fccf4c9bf6d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-05.png
+  importAddress: Guid(b118ab368c4a4b846910231f83304da9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-05.png using Guid(b118ab368c4a4b846910231f83304da9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81bfb532363a9881f60afd282dd8b175') in 0.0181242 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50ab6165392abb5f2362f526f0ca88f0 DependenciesID=c728d7d4e9692ba800cfda94d74c8a05 StaticDependenciesID=b62431b69d152a5cb2abb277ea2bcf61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-04.png
+  importAddress: Guid(c00488771ed2ee04cb45e425a2ffc836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Corner-Stone-Model-04.png using Guid(c00488771ed2ee04cb45e425a2ffc836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e982f0b0db92865bbace694611416e4') in 0.0180094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10e649998380023799af2b818e22a3e5 DependenciesID=cc1960e289e3404b64dec65fc0d1e57f StaticDependenciesID=6b4080c52a8cd4f173fa573991e2904a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-03 1.mat
+  importAddress: Guid(e5379b3605544484cbfff4971a8b7450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-03 1.mat using Guid(e5379b3605544484cbfff4971a8b7450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0aa8720053617cca7e5dd09083f25735') in 0.0151892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b46cd4c6117b37b55cf20b47f8c86e28 DependenciesID=260578a044acd9897bbf495672389232 StaticDependenciesID=7c6f551baf098443873a7af0ac79b901 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-03.fbx
+  importAddress: Guid(e1ff90def9a530248ab22c3a085eac63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-03.fbx using Guid(e1ff90def9a530248ab22c3a085eac63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6a4ab2adac668d3642b55dd1673e1bbd') in 0.0231339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9642b3cd0957e9b4dadf75f9ec5b804f DependenciesID=b8cbf9f8041f557d57a279f8069f0d0f StaticDependenciesID=fcc3a40b356b00b1f70347f749ca0ebf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-02.fbx
+  importAddress: Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-02.fbx using Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea42439c1689bbf110f47e8857e2b356') in 0.0230942 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af84777ee4f1b535500570c3080d6017 DependenciesID=3b2f36117820123ba421c0db014047b2 StaticDependenciesID=afe227575629f2e3271f00dda9777ece 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-03.mat
+  importAddress: Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-03.mat using Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbf2bca60ea639ef56de4d73ca202290') in 0.0150146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f42b501834440037947f86888b4a2c70 DependenciesID=584a11a73c1195b103919b2479ccafc1 StaticDependenciesID=81c75834e12352b0cb2e26c6a99549ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-04.mat
+  importAddress: Guid(3b751f6271dce7747ab89d83050d6315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-04.mat using Guid(3b751f6271dce7747ab89d83050d6315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9128c60d2ef4d7010a23794cbc76eb9') in 0.0141512 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11dd8ebbdc147752c59723a5888f0de7 DependenciesID=c5556c6146ee2f7d50069dca55ba8077 StaticDependenciesID=6cd2dd9dce7fa3131e9282e9a81eaf92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-05.mat
+  importAddress: Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-05.mat using Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f8da343f3e03ec8170d931425326ed53') in 0.0137398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f22500a0b079a824d8f8adc2d73a95f DependenciesID=9b8d4d637987e8eb3da17ac94fbeaf0e StaticDependenciesID=f9063b3b00ce8dbd8712d9cbae1826f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat
+  importAddress: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c33711661f63e073daf2b7b279d76d8d') in 0.0194916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c62eff89179bac5ad3797ecbbb56535 DependenciesID=669b94e44749068fcfb3ccc070a450c5 StaticDependenciesID=3696a308587021838a5186f1c6ff11a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-04.fbx
+  importAddress: Guid(4530d001dac31db4e9b983bd62e2658a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-04.fbx using Guid(4530d001dac31db4e9b983bd62e2658a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38793a628e54ef25c0860fbeb19ccb8d') in 0.0226616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86f6bcc0f264eeaf097b40997a5e22b4 DependenciesID=6d94808997182a789bf467948a8b93a7 StaticDependenciesID=6c7d3cdf9e774b7e054cc0eb1a12f791 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-08.fbx
+  importAddress: Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-08.fbx using Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16d70ff19392857fa1d296817864ab20') in 0.021104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6aebb1a981790083e9098bc15c3fbd7 DependenciesID=ee496e7a4785a50bbd4c0d5d3b8294c8 StaticDependenciesID=3d2e2101e5a6187898bb90da44e19165 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/LightingData.asset
+  importAddress: Guid(9235e21aad383004ba4815536366ba54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/LightingData.asset using Guid(9235e21aad383004ba4815536366ba54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '771cd76e4a579c5c5b9b154c19ec5ff9') in 0.0136449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5431c6f0deb601936625b5e8f92c96d3 DependenciesID=6a21e1010addfecfb3d6fbebc3d59e69 StaticDependenciesID=dedb6e1c7292c2ceecbbf64da64f0f68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Door-Wood-Model-02.fbx
+  importAddress: Guid(f0e081e328e30854da83a08974ef6b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Door-Wood-Model-02.fbx using Guid(f0e081e328e30854da83a08974ef6b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6adb5776a51baade0895197371853335') in 0.0230069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b7c55e8561045438603cd7c3530835c DependenciesID=5416dab519db8963fea9002718fb8a90 StaticDependenciesID=734f29d6397a521da0195009891ad65c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-01.fbx
+  importAddress: Guid(2902b228b51682e49b120efe22113a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/Wall-Wood-Model-01.fbx using Guid(2902b228b51682e49b120efe22113a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72f8acb2a4df0657047b0d937c5ba5db') in 0.022551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=964a06bfaa4fc52b35d8c1d4dc8ba701 DependenciesID=f1ab7ab936e1ed97033afa61d53bd103 StaticDependenciesID=1255ea6d63f389f0aaaf7f0f9f6903ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png
+  importAddress: Guid(99b254ad4e7668d419be526ebb66b549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png using Guid(99b254ad4e7668d419be526ebb66b549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec1a89735bf548967256c1db045ae5b4') in 0.0197019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a4d562ec9fe159265e4774eee1316bd DependenciesID=058623e0b466cd2529b98dcf2063e409 StaticDependenciesID=360957b3b82101dc923bf41f36b704ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-05.fbx
+  importAddress: Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-05.fbx using Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbdfab58560ec4e713ec9180b466e439') in 0.0225686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c83fc67e0e3de42fea9601e2740d642d DependenciesID=1cfd2280c2e45339ad925f249a75bc7b StaticDependenciesID=b1c43e8b15e52b000ee814131453e6f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  importAddress: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '741063c4f4323bc830538fbd224cf476') in 0.0131602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea161d6395e32fca092629e7a9b29515 DependenciesID=56bdc6073553dd30b3a4bb55d42cc663 StaticDependenciesID=086b5680e33efca1bae2e5551aec11b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Grass_Diffuse.png
+  importAddress: Guid(5e1acf362611957488060eee4178b3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Grass_Diffuse.png using Guid(5e1acf362611957488060eee4178b3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8b2da44eda7f0f296ff55251bcf42553') in 0.0192448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eca99c42730c6be65c54593d184e1c7c DependenciesID=6bae54f0524013dd7964b1aa684b500e StaticDependenciesID=f622c2588863985ec75cdc56e52a0164 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png
+  importAddress: Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png using Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '645bca97bdb1058aa63c41e0bfbd328d') in 0.0197868 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=644dd0959e88626ec89158c1094cdf4b DependenciesID=2ee1543d2c5efbf428b0258df68de78b StaticDependenciesID=5671399e4a40981313dbb4e0a078cbfe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-03.mat
+  importAddress: Guid(024ec65dc7d742e4d87f866c034ff810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-03.mat using Guid(024ec65dc7d742e4d87f866c034ff810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '773567fcf6d65dd90d275fa3620faec2') in 0.0158841 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ea8da5963b0880d3ba45ad159c43876 DependenciesID=d4e365baceb5834276b4c5cd55738de9 StaticDependenciesID=642573ee0e6912fd0f012440b70e984a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Floor-Wood-Model-01.mat
+  importAddress: Guid(99a7f16ed8f78a7418373cbb4bf8aa04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Floor-Wood-Model-01.mat using Guid(99a7f16ed8f78a7418373cbb4bf8aa04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce62ebffe9c6b4e2af57ea9cb9d2558b') in 0.01317 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b47fac93bc707870c2176c17e7c53ba1 DependenciesID=78375658a5900a59a0a29b9d32121f4c StaticDependenciesID=d501517962089ad5c647ba054b5196d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-08.png
+  importAddress: Guid(b8e381cbde763c447b317ef7d4355712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-08.png using Guid(b8e381cbde763c447b317ef7d4355712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c947b7259387841681f362c4c70d9f10') in 0.0162474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10662980e48afc526675d9c62afa43de DependenciesID=67d303ab1a212973c5c406f35b31abbd StaticDependenciesID=07b058cd47c77e369a42575ab7aeae3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-12.png
+  importAddress: Guid(bb57af78a7925424f8995714df58e71e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-12.png using Guid(bb57af78a7925424f8995714df58e71e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53cc16b25a8ec1e403b5add397555e30') in 0.0195029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6af048ff621eb262b25b91949d3b2804 DependenciesID=a101aea0a102a41379a11c488bd41419 StaticDependenciesID=408c541b71ea1c6bc6b364113cbd739a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-11.mat
+  importAddress: Guid(e218649290d1ee045ab720f9506ae53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-11.mat using Guid(e218649290d1ee045ab720f9506ae53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '988a3bd4071a53fe0b9cf5aa743748e1') in 0.0141033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3c80a565c4684d3a127c8147b2f9df8 DependenciesID=797a7a408bbfa44b6dea1e366e171b93 StaticDependenciesID=09e9d46de16b9641979492e2b4203405 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-03.png
+  importAddress: Guid(16db49039a16de24896fd3f0a23ea5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-03.png using Guid(16db49039a16de24896fd3f0a23ea5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37e9d9c46a3e39b7fefec47216e96733') in 0.0174479 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27c0e9af25c23c90a8eb7bf9ead75869 DependenciesID=f71ffb6ec7e44f04a4bd248b2521ca6c StaticDependenciesID=f041bd600ffec2ce2bcb33559a4c9b9c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-09.mat
+  importAddress: Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-09.mat using Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0253f6c3fbd3acf9a8518a5af4c3d4de') in 0.0126009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=677024160e0678248b24cd9c0fff361c DependenciesID=6488c43c975072c8ec833230ce5b1294 StaticDependenciesID=934a9d21f137bb26b713b22c85a4d608 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-03.png
+  importAddress: Guid(c5d56663d295b3e44a03bb4f9e9dad87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-03.png using Guid(c5d56663d295b3e44a03bb4f9e9dad87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1205beea82ba395a0efc7346759bc156') in 0.016466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d99639137ddc3161594be71a32f41ea DependenciesID=2288e29f9441032518c5718f2ff78115 StaticDependenciesID=7fb3b96e6c8da8099c5e2f7df44abdf8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-04.mat
+  importAddress: Guid(566b1898345837d41a837826ac8f61d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-04.mat using Guid(566b1898345837d41a837826ac8f61d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7147d344c8c696107f1a53066c73deca') in 0.0152609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=681254e1151b5e79e07a50a8c5865ed2 DependenciesID=8d4179b05a3bfe6bf8741d84b6afeafe StaticDependenciesID=03cdb97c739246b855893ba25a6dbfd0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-03.png
+  importAddress: Guid(b86e8d2f00e714c458cea7ffa4b81753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-03.png using Guid(b86e8d2f00e714c458cea7ffa4b81753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a784848a5e7d0fd4c3c7dee8d36acec') in 0.0167694 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=354af87f1dd91191a91b6743eede011a DependenciesID=fa86281163f251a50c6e7b62c811cbff StaticDependenciesID=244de1e4f71da8e7ec91e91d8dda04b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-11.png
+  importAddress: Guid(92fdb74de751e4f4a83b8a1d7bfeb29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-11.png using Guid(92fdb74de751e4f4a83b8a1d7bfeb29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a7d9832faac83193b7f62490f91615fb') in 0.0205479 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3054b617d0cde77f469989f7e649deeb DependenciesID=8d18968120f1448a3d2f35192be8cc0a StaticDependenciesID=d61f259ec6a8eafb1c137d0799a931e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-10.png
+  importAddress: Guid(b7290229929885845b1665e4c7d323fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-10.png using Guid(b7290229929885845b1665e4c7d323fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e631342e7a55a972c3703703a39c5d63') in 0.0180728 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9330a5adddef0d0278acfcf0207e6837 DependenciesID=d94caf2ea0c130fd1a854970c7dcb2e9 StaticDependenciesID=91cba965cadad7d2b36cbe20c5e8c5aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-02.png
+  importAddress: Guid(154d9fe3e4996fc4993c367f328b33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-02.png using Guid(154d9fe3e4996fc4993c367f328b33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '549851d7f3435824e9ce06a8d19bc409') in 0.0165502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05c2dfdafef057ac702bf6437d64fbef DependenciesID=df5180695ea565a499a38d33d0169e61 StaticDependenciesID=ecc4d006f6ff56c3edec4576faeacf7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/New Material.mat
+  importAddress: Guid(c89452939738aca48bf43018d70f3302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/New Material.mat using Guid(c89452939738aca48bf43018d70f3302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '592f0892205eafa80d8787af21c94c13') in 0.0141796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b089fbaeaabf23c8871842ae0286bb13 DependenciesID=5b55798a99ca95c011a1008341947a10 StaticDependenciesID=bafd34bd19e6ea8c9d1ea88f99a5a92a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-02.mat
+  importAddress: Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Floor-Stone-Model-02.mat using Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8130d3550840702bb5a6d0fefb8181af') in 0.0152686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81a44b37f13f9fb8f639d4d5d2b70544 DependenciesID=71c9bc8dd006d51ae06b819166d757c8 StaticDependenciesID=ca83b6916ff0babfbc56820fb59a2c5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundAO.png
+  importAddress: Guid(b9550b2465fae1c4fb3e247ab858a55a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Concrete/Clean_Concrete_GroundAO.png using Guid(b9550b2465fae1c4fb3e247ab858a55a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a84081d94593df9262f98551bf624a4') in 0.0196602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a3bcb5024d915c4d68b5a3e61d2147c DependenciesID=5894cde387e8057a92449b1e28c0a8ff StaticDependenciesID=374ba046cb77ac4d3eb91bbbf2581631 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Marius N11608412/Settings/PC_RPAsset.asset
+  importAddress: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24f2162388d06bddb276f074a51d2661') in 0.0136441 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=766d7c654f0d5974677f5727052b1a2f DependenciesID=b551483166a29ee31ed0e0f0b9388831 StaticDependenciesID=86be0580974ceb5240313504ca1a4ff3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-02.fbx
+  importAddress: Guid(bbc007129f2c6534c9e70e722e90499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/Wall-Stone-Model-02.fbx using Guid(bbc007129f2c6534c9e70e722e90499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '675b19d091e1536fec697f4cebb15884') in 0.0227498 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=663c12a392125b3f4508e7aaea2b6445 DependenciesID=ff8ff395c9ba5ac3e25a4b4c93d3a56a StaticDependenciesID=7e569dd4224c9b519b7d16da78e1f1df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-09.mat
+  importAddress: Guid(d2f1f4dfae73a07429b743c02246c9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-09.mat using Guid(d2f1f4dfae73a07429b743c02246c9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ab2c19890fac2634cf44cacaf7b68c0') in 0.0138286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a207550c9cceda33d13476725cb47390 DependenciesID=23aa9703d58e33da60d31f73d4b42458 StaticDependenciesID=abfdf7403cb0800d797fa0dbcf2c112b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-11.mat
+  importAddress: Guid(d045384b4238cf64a90f3daefdacdff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-11.mat using Guid(d045384b4238cf64a90f3daefdacdff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ddeb43976dc83cd1b786c539241f984') in 0.013952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84435b143635155213ab4e159a9193a4 DependenciesID=9fb02e0bf83a933ab72ee534b7e964c9 StaticDependenciesID=ff972bcbc4744fa4f682f0aecc5faaf2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-08.mat
+  importAddress: Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-08.mat using Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b11bc59478355a83c8fd8a460848d73f') in 0.0136984 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07e565c70dd385ac560776cbef1e5039 DependenciesID=3f9f5ac0b50dd65e564f9401b415bae2 StaticDependenciesID=4c866bcd7b8462716e6182adf3e94793 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-07.png
+  importAddress: Guid(873c5c5ed605db24690f89923871b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-07.png using Guid(873c5c5ed605db24690f89923871b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdd1d7b9d5b55c223bb59d676c255cdc') in 0.0169688 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d52b75b4a3e85eacf96d99b055fdd5ce DependenciesID=1bab926663c28a0e2fada5e3824d33df StaticDependenciesID=3be2e92154ee3d3eb84848dbb271cf50 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-01.png
+  importAddress: Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-01.png using Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ddb4653dd10fd7fe2a0e270ed3cae160') in 0.0195918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8262bcab4c5c003c7eacbd3ec541b602 DependenciesID=a9a226b5a7cf630a2570793da9a79f88 StaticDependenciesID=3bcf44f85c6e9bccb82dfa45e2689ac3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-12.png
+  importAddress: Guid(a484a1cab5c216e4593450e16523b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Stone/materials/Wall-Stone-Model-12.png using Guid(a484a1cab5c216e4593450e16523b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85cfd682fc80e6506c57dc214916744c') in 0.0192396 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76bbbc4e461e7ed1a90eaeb2b74da21d DependenciesID=81827dcb397f02e5920de22195e0ca44 StaticDependenciesID=d21d9d8489fc9734c4caa8fc330e2d2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Floor-Wood-Model-01.png
+  importAddress: Guid(c5a633fc94d366f4d8f603eec5105535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Floor-Wood-Model-01.png using Guid(c5a633fc94d366f4d8f603eec5105535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2883558f0e8455d14784c5ab726f1c6') in 0.0179672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31a5b8c039f11ec493714f2a96b70489 DependenciesID=7cf9e2cdcd32c1f86b09eec1e1e1b1a4 StaticDependenciesID=85a6128a35221c5fef1a2940cf18c898 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-03.mat
+  importAddress: Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Door-Wood-Model-03.mat using Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba9da0c89c0e148a6e04cdad3285e14d') in 0.0139526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=423fcf2fbddb42298882205a55b3fdeb DependenciesID=20d09d749e18a406dd65d9586ac4a8f7 StaticDependenciesID=0a1786ab03b8cbd32185679ede07bfa9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-02.png
+  importAddress: Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Corner-Wood-Model-02.png using Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11b70c9ec4589e9f3dc0ff818aa04684') in 0.0164215 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ccd6057b06a514f999018bf3fc9188a DependenciesID=c5fc9a6c0130a917a06d8ebd81045f8a StaticDependenciesID=b76394f0ac6ae5e9e5c6bc91275099be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab
+  importAddress: Guid(05a0229e5b930744683bf9e247f3e363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab using Guid(05a0229e5b930744683bf9e247f3e363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94c7a3c9f10ddb8740d68782f74416f4') in 0.021403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f49825dd3c9e5cfeb40ea3cec63ae32 DependenciesID=2f9d6ee0d01cce623ded56d6e4b9a0b4 StaticDependenciesID=71513fbc2f1d55ddf98b8eec6108904d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab
+  importAddress: Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab using Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '535839182d7bb7b3fab170804e4a94cd') in 0.0180845 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8c4708fb79b1403f8c446a4e397a777 DependenciesID=a669cc7b1dede3b4d87c655a7fbba510 StaticDependenciesID=42cf7fcbe53724a3601837bcbf19364e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab
+  importAddress: Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab using Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d45f69406c733c834a0171d968e8c37') in 0.016216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=322b93974e6c1a510b2f2b258fce7b69 DependenciesID=2436221703514d8d6f52ec907d2534e3 StaticDependenciesID=b3816c9b2a1c026482e406fb480935bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Floors/Floor-Wood (1).prefab
+  importAddress: Guid(2046beae207d6db4199c40c4d14f4141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Floors/Floor-Wood (1).prefab using Guid(2046beae207d6db4199c40c4d14f4141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8c7397b0693e03e91ac0e50812b8aece') in 0.015377 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67ad07a4ebc53ba94d4a419c664718cb DependenciesID=e1ac991c8f64ad977c04225be8438a71 StaticDependenciesID=5fe2f0c0f13d9fe1adb2828afb0f1043 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab
+  importAddress: Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab using Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eed39b860b32551dc958102d1a679a40') in 0.0185329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0971fd7e96dd768a5f8099b172973ed2 DependenciesID=7d34bc9f2915d115584aeacc8505ea55 StaticDependenciesID=604b18c28c727ee0df92ea180984cf81 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (3).prefab
+  importAddress: Guid(1975565c63a428b42a68f4a9c3cd9c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (3).prefab using Guid(1975565c63a428b42a68f4a9c3cd9c8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8c1d1d6da101163560a62e1034797e6') in 0.0181218 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c73ca5da5d991062e4aa8ada0a54fbea DependenciesID=b70f5997cb1fe2cbc76507346321665c StaticDependenciesID=1f2350a0a77296f8446355752e2c0e13 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab
+  importAddress: Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab using Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afa4f7bd0ea7d844811a989682df440c') in 0.0187637 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0fa2205a908b259d544276abd4f4c24 DependenciesID=c4aa3a6bb7091210bb596fe30d005eb5 StaticDependenciesID=25fec7c7142713f96a3e15664fed44dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-01.mat
+  importAddress: Guid(b30dcab12d8cb64438630df58d94510d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-01.mat using Guid(b30dcab12d8cb64438630df58d94510d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ba5810cd081939d91ef144775fff6be') in 0.0123943 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a3e5d9369f2e661c0a13debb901ddce DependenciesID=0955de41e8a1cd725464ad1586a3f518 StaticDependenciesID=4da23e3ec4a2fdf8db116d4a97e3428f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-05.mat
+  importAddress: Guid(8325361387834014a9ef33531464743c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-05.mat using Guid(8325361387834014a9ef33531464743c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35eadd5123a76d4156f2c4c366a43938') in 0.012697 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7238c9d9b17b3096d5732a692ac8d637 DependenciesID=1eed38a05d1399ec7237c51a15015791 StaticDependenciesID=591798661e288705ae2d284039177e2c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-01.png
+  importAddress: Guid(6756ab5e51914e149817b2ecf1b96c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-01.png using Guid(6756ab5e51914e149817b2ecf1b96c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e818c824b4688fae2325e068cc099700') in 0.0181017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81768217502a98337b74f54b3e50e94f DependenciesID=44da8bc7276233272e8c6d41518a8b70 StaticDependenciesID=0fc3eaa28127c97cb1052720410c25e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-10.png
+  importAddress: Guid(73a539225e2e1334e8032e8f43a49314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Models/Wood/materials/Wall-Wood-Model-10.png using Guid(73a539225e2e1334e8032e8f43a49314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90ef2a85cd52a2bae23a77e1279fe401') in 0.016866 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c0ac01cf9cef87ca1d9bcf80f31067c DependenciesID=1658e5bfc029fa55a416d0dc26797daa StaticDependenciesID=bb44f3379a2c8816096532e21518f652 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png
+  importAddress: Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png using Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '208539751a70c3ffcb124e5e3e9bea2d') in 0.0175819 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c0090ff2558237ed4d3e1c50973db10 DependenciesID=b656968830d91a3d161e93a7f32d0647 StaticDependenciesID=9ffd6aefe5fefd04329040ad42180001 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Animations/turn.fbx
+  importAddress: Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Animations/turn.fbx using Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd32a79fca53d55357ab61cbef788b6b3') in 0.0328049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1289e7b7e126783a2f05e83d548017b0 DependenciesID=c072612a36064d531e6671170781a739 StaticDependenciesID=5a6708f5c7809cdbefc49f28823cad22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab
+  importAddress: Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Materials and Textures/Walls And Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab using Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '572b989362a71af416ef0e7b3436cdf0') in 0.019475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e608d00a36d69c7d8fcea398f5d9862 DependenciesID=3eb08005508cf778a8703138ca73e057 StaticDependenciesID=00a87e43c2d9ab0205f72d886b7d2688 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Marius N11608412/Third Person Controller/Animator Controller.controller
+  importAddress: Guid(1ef73a3461e3d744aa0f44cb058164a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Marius N11608412/Third Person Controller/Animator Controller.controller using Guid(1ef73a3461e3d744aa0f44cb058164a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fd3678eccfa142e4806a037f40655d6e') in 0.0361337 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0590daadb99705ae97a4bb49cc59af9 DependenciesID=4c1aa5e8c86fd108f16904e197199976 StaticDependenciesID=07e670629c7f26e3b9305d26e6f4765d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
