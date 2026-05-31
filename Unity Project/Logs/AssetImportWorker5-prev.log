@@ -1,0 +1,517 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.1f1 (8535861f39e1) revision 8729990'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher" at "2026-05-30T22:42:24.2752128Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32695 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-30T22:42:24Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+52200
+-licensingIpc
+LicenseClient-Topher
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project
+E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [29436]  Target information:
+
+Player connection [29436]  * "[IP] 10.0.0.34 [Port] 0 [Flags] 2 [Guid] 3369154820 [EditorId] 3369154820 [Version] 1048832 [Id] WindowsEditor(7,Basestation) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Initialize engine version: 6000.4.1f1 (8535861f39e1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:          NVIDIA
+    VRAM:            8024 MB
+    App VRAM Budget: 7256 MB
+    Driver:          32.0.15.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Topher"
+[Licensing::IpcConnector] LicenseClient-Topher channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1" at "2026-05-30T22:42:25.5454416Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d4a9d13951e447b4b2779568e0934b4b
+  Correlation Id:          1b4523989e0634530684a14472fe3b42
+  External correlation Id: 6234240330895748196
+  Machine Id:              iUDX2bORcETEJuoiLUZ8i8pfw80=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Topher-6000.4.1" (connect: 0.00s, validation: 0.00s, handshake: 1.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1-notifications" at "2026-05-30T22:42:26.6014813Z"
+[Licensing::Module] Licensing Background thread has ended after 2.33s
+[Licensing::Module] Licensing is initialized (took 0.84s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768250851423-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.842331 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1979ms
+	BeginReloadAssembly (187ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (931ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (182ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (230ms)
+	FinalizeReload (529ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Assignment 2
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.964 seconds
+Domain Reload Profiling: 2600ms
+	BeginReloadAssembly (211ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (776ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (384ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (964ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.84 seconds
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6714 unused Assets / (5.9 MB). Loaded Objects now: 7553.
+Memory consumption went from 158.4 MB to 152.5 MB.
+Total: 10.999700 ms (FindLiveObjects: 0.808800 ms CreateObjectMapping: 0.827100 ms MarkObjects: 6.555900 ms  DeleteObjects: 2.805200 ms)
+
+========================================================================
+Received Prepare
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6707 unused Assets / (6.1 MB). Loaded Objects now: 7554.
+Memory consumption went from 160.4 MB to 154.3 MB.
+Total: 12.091400 ms (FindLiveObjects: 0.719200 ms CreateObjectMapping: 0.941200 ms MarkObjects: 6.766700 ms  DeleteObjects: 3.663100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13437.877158 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/fabric_6.png
+  importAddress: Guid(de17a586d50fd6b41b9b17765672fe6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/fabric_6.png using Guid(de17a586d50fd6b41b9b17765672fe6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2a3709b8cad00e5d3f04b45c0607820') in 0.5131137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aacad865dc27246ab543c232edab62d5 DependenciesID=95588ed20188d41e967d0e5e4b3938a0 StaticDependenciesID=fac1d26131eed1a75d068e1a10b14398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137028 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wall_mp_1.png
+  importAddress: Guid(8703dc17daef98247a33d2869b12ad56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wall_mp_1.png using Guid(8703dc17daef98247a33d2869b12ad56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0117a16250f9d692314414501ab0902') in 0.2690129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb74164ee4f6db45384fdacb981edb80 DependenciesID=97f2201e36d9dc0bfc6d014ff5c8c03e StaticDependenciesID=31ea6a06e42f9a77aef025ec1b19e293 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183651 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/sawdust_board_mp_1.png
+  importAddress: Guid(60386377bd1def84d90a25a6f33d6271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/sawdust_board_mp_1.png using Guid(60386377bd1def84d90a25a6f33d6271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fed653ae2a0b18f98e33a24ae6c7a02d') in 0.4686138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cb03f699f8cbea8498623c0c1f84779 DependenciesID=5a5e822c59044fb27fdc6bbb2a20c0ea StaticDependenciesID=4f492794cc099b1290c9e66914dd6432 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/hand_saw_1.png
+  importAddress: Guid(48d9b158bd8c8994e9ac9fcd117fd039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/hand_saw_1.png using Guid(48d9b158bd8c8994e9ac9fcd117fd039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ef010fde01e21fe46e3e58ef3e5415a3') in 1.4711542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a00a2e54b3c99360ca0f5441bf55c2b8 DependenciesID=a6d4a525f95dcccae19182232173ffbf StaticDependenciesID=2ad7ca033bf16934d9045fed36c79c00 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/door_frame_mp_2.png
+  importAddress: Guid(c6295f69a63efa1428e059f59dd0d862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/door_frame_mp_2.png using Guid(c6295f69a63efa1428e059f59dd0d862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c4461224e5c2be688ff3e53a088b0a84') in 0.0970152 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10b5d1979f98f8fa7e819fa17c59dd90 DependenciesID=962921ed34768962cdc49734ca899275 StaticDependenciesID=5d6084eda91d11b4825dbef2c5063fc1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/valve_1.png
+  importAddress: Guid(49a8e66a53e43c7499bb0a0ec56f7b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/valve_1.png using Guid(49a8e66a53e43c7499bb0a0ec56f7b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e0f4839d419a68145b5cb87789473257') in 2.0811443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=511999008d4eff8e724dd9c4c883c17c DependenciesID=ae1e1089590af3ff0cc17a1f3ca097e6 StaticDependenciesID=4f7217a7ab28895dd54c117495b99148 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/cassette_tape_1.png
+  importAddress: Guid(ac29290bcae018b44a15aa8b786285e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/cassette_tape_1.png using Guid(ac29290bcae018b44a15aa8b786285e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c10b12eb0ce4db5ad6b65fcc434335c6') in 0.0953748 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8fd5169d115a68b08a12091b895b2fd DependenciesID=2885796a9c978c0ab6c27cf381af259e StaticDependenciesID=0b3770010099144ec84db89580d497ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Models/Modular Structures/elevator_doorway_1.fbx
+  importAddress: Guid(ed6ae130de8ef2346af8593b846bc049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Models/Modular Structures/elevator_doorway_1.fbx using Guid(ed6ae130de8ef2346af8593b846bc049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d74fab908dfca828a3364ab53c7ca68') in 0.4298702 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=083f9f436a4233d59c9a121dd422f17a DependenciesID=ae9d2843f3e70329e16291f66e5dfbed StaticDependenciesID=51e682df7eced0808d34615703378312 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/concrete_4.png
+  importAddress: Guid(29e0b6112ac88fd468719ea79492bf1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/concrete_4.png using Guid(29e0b6112ac88fd468719ea79492bf1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da0b3a7b904d1a5c4d4155bbd459025b') in 0.2658726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9652a1e5b2a88aff5a5e3a4fcc6fe73e DependenciesID=18e51c764a340ff7dea7cb50ec4b11c1 StaticDependenciesID=fe39399c86e764ecabce933663a91c7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wooden_crate_5.png
+  importAddress: Guid(73eac833080a5754daf134a591ccf252) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wooden_crate_5.png using Guid(73eac833080a5754daf134a591ccf252) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '74f879ab077c4f4c2e173df329989ca9') in 0.3888581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7e5f3aa2f860722b628ef9f2a5a68f5 DependenciesID=b07458501e1b3af1574a1f2e6f8a7e3b StaticDependenciesID=9c2f0a286ada7110a0ebb013cdf06a92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/tiles_floor_1.png
+  importAddress: Guid(982450f1d0bbf2a42ad0d0c834f41586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/tiles_floor_1.png using Guid(982450f1d0bbf2a42ad0d0c834f41586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1ddec256309da6f497900aff6ec717d') in 0.3223599 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bcc3812c0fe77390ccf7e3cef3dc43c DependenciesID=97b2f5d2f7f05f5858a3afc203d35be8 StaticDependenciesID=5c6d7977a48d8543e5b2e7f2a924d845 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wooden_crate_7_1.png
+  importAddress: Guid(442d3e21b492e954c9b26c39ac091c11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wooden_crate_7_1.png using Guid(442d3e21b492e954c9b26c39ac091c11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '591dd49040b6efe46483ff88d2fb095f') in 0.6714411 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=220ad31da09d4c4035cf3cc1e66c6f53 DependenciesID=4557a73d498e2ce77777da94ba784d60 StaticDependenciesID=50e73a217aa6676724e519cf49f734f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/vent_2.png
+  importAddress: Guid(bd5bad9257e55c3469706b34bbab789c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/vent_2.png using Guid(bd5bad9257e55c3469706b34bbab789c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d77e98b921990905925a96f64f41940') in 0.3413548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4ed8be78483a0bcbb44cca94bcb39ad DependenciesID=7d197ddf014974f51cfdb1baa2669398 StaticDependenciesID=48ced0fe2dfa59407bb8c3c97b229cb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Topher Assets/Assignment 3 provided materials/Third Person Controller/PlayerMovement.cs
+  importAddress: Guid(39d7cb1f7aa15304ca069dabfe2dc04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Assignment 3 provided materials/Third Person Controller/PlayerMovement.cs using Guid(39d7cb1f7aa15304ca069dabfe2dc04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b901789d7450b627cdbd633a39cd8a56') in 0.2215952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a22cedbf92d7aad9d8a7633526c455b6 DependenciesID=1391b6449d1f265860adcdf8878a6cf3 StaticDependenciesID=a432d861762fe7a4538df47345097fc5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/plate_mp_1.png
+  importAddress: Guid(88890c411c4864241a2247ed7fff3dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/plate_mp_1.png using Guid(88890c411c4864241a2247ed7fff3dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '853a309754aa28d0d0c0b05d666791c1') in 0.3966393 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43b7819992b28e9325ecfa59441de325 DependenciesID=41cd9504e57877e8049da9c20747bcdd StaticDependenciesID=f28a8dbd8ffe0320b547c0f14a2f7bbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/pc_mp_1.png
+  importAddress: Guid(298b6e6f17194d842bc9e745c67d25b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/pc_mp_1.png using Guid(298b6e6f17194d842bc9e745c67d25b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47d4b49e230e3e2c62b3c25bd4831e05') in 1.0601224 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d521c62a772d0013cb5780757b5d112 DependenciesID=de41588bc958c59f69cb849a92dc3dd9 StaticDependenciesID=a94193d526ab88e4bb07a7c8134676ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/glass_bottles_1.png
+  importAddress: Guid(95a438bc8bbcbfd4e917b6417b565038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/glass_bottles_1.png using Guid(95a438bc8bbcbfd4e917b6417b565038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eda7bddc974508b0437c8597243b1a13') in 0.5187333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de9597d24df19dcce3b335714ef3ca97 DependenciesID=d135db3b343e8120f6cb91afeaff7a89 StaticDependenciesID=a6b2d2944cf344c6160e31d08ec84b40 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Topher Assets/Materials/Rock texture seamless/rock texture seamless_normal.png
+  importAddress: Guid(4f4fc72745f4d954fa2dab0578a437ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Materials/Rock texture seamless/rock texture seamless_normal.png using Guid(4f4fc72745f4d954fa2dab0578a437ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19b71cf4c4723f08b6c2d982d3fec959') in 0.4435311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=227ec8344b724ccdefeb982dac1aeb05 DependenciesID=39b3004e99b5d3bfa3f96525f3bd118a StaticDependenciesID=0016bf225cbf1873733ce49c56c650ce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/lamp_1_on_yellow.png
+  importAddress: Guid(782da37d422e1b14f91bbf37eb9e8536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/lamp_1_on_yellow.png using Guid(782da37d422e1b14f91bbf37eb9e8536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a170c88075efe0945980bc52c839db8') in 0.3766721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de4ce728444485f747025f278a9e829a DependenciesID=be4f0fb49ad7cf267bde8ee95a3b8a02 StaticDependenciesID=d1a2abe2b0d8fda1eabd887d8d17850b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/padlock_4.png
+  importAddress: Guid(624b484ced45d0e43be2d5c4a3d24157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/padlock_4.png using Guid(624b484ced45d0e43be2d5c4a3d24157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f3d5e3cb225f85157ffa5a63a946e59') in 0.2314359 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d1ba460c7189ac0a5c5333909664ca9 DependenciesID=c8039af85eb9c99d2de4a570df425f7f StaticDependenciesID=fa08d2a4250f77a297a9f6a9fdef91e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wood_painted_white_mp_1.png
+  importAddress: Guid(f73eec0c20973734b909f8733cf9b91e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/wood_painted_white_mp_1.png using Guid(f73eec0c20973734b909f8733cf9b91e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5988eb13206ef96dbc299b30754d0468') in 0.2889873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48e5363e50044195863c1816290fa9de DependenciesID=9327fe545c1041dc9f0cf94066705cb5 StaticDependenciesID=bb4862c7652e66cc2b49228ce9bdfd57 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/crt_screen_mp_1.png
+  importAddress: Guid(66e00bbf6a45c5348a8763c7eec03ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Topher Assets/Models & Prefabs/PSX Mega Pack 3.1.3/Textures/crt_screen_mp_1.png using Guid(66e00bbf6a45c5348a8763c7eec03ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5c1f128e71d3cbf87eddf856a3ac879') in 0.1982693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4346030e248745762e0ca3d2038a0a43 DependenciesID=f768a6418a1ed90a15abb3f27789a85f StaticDependenciesID=28beaf7abdfa4331b8196274dffd929d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1821ms
+	BeginReloadAssembly (245ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (398ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (911ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6714 unused Assets / (5.5 MB). Loaded Objects now: 7572.
+Memory consumption went from 169.4 MB to 163.9 MB.
+Total: 9.973800 ms (FindLiveObjects: 0.693200 ms CreateObjectMapping: 0.382600 ms MarkObjects: 5.924600 ms  DeleteObjects: 2.972000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -49,18 +49,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.1f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LevelSwitch.cs" />
-    <Compile Include="Assets\Assignment 3 provided materials\Third Person Controller\PlayerMovement.cs" />
-    <Compile Include="Assets\Assignment 3 provided materials\Third Person Controller\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\Scripts\CubeEffects.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Pickup.cs" />
-    <Compile Include="Assets\Scripts\AutomaticCameraMovement.cs" />
-    <Compile Include="Assets\Scripts\TestScript.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\Pickup.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\LevelSwitch.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\Exit.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Topher Assets\Assignment 3 provided materials\Third Person Controller\PlayerMovement.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\AutomaticCameraMovement.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\CubeEffects.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\Cursor.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\TestScript.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\DoorScript.cs" />
+    <Compile Include="Assets\Topher Assets\Assignment 3 provided materials\Third Person Controller\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\TV.cs" />
+    <Compile Include="Assets\Topher Assets\Scripts\CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\New Custom Render Texture.shader" />
+    <None Include="Assets\Topher Assets\Scripts\New Custom Render Texture.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
