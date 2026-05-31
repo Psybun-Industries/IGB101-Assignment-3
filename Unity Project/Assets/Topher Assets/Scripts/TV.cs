@@ -3,7 +3,7 @@ using UnityEngine;
 public class TV : MonoBehaviour
 {
     private Camera playerCamera;
-    private GameManager gm;
+    private TopherGameManager gm;
     private Transform playerTransform;
   
     public static bool tvOFF = false;
@@ -11,7 +11,7 @@ public class TV : MonoBehaviour
     void Start()
     {
         playerCamera = Camera.main;
-        gm = FindObjectOfType<GameManager>();
+        gm = FindObjectOfType<TopherGameManager>();
         playerTransform = gm != null ? gm.player?.transform : null;
     }
 

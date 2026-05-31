@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher" at "2026-05-31T02:37:18.3764089Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher" at "2026-05-31T04:37:16.0246719Z"
 Built from '6000.4/staging' branch; Version is '6000.4.1f1 (8535861f39e1) revision 8729990'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32695 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-31T02:37:18Z
+Date: 2026-05-31T04:37:16Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.1f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55944
+50064
 -licensingIpc
 LicenseClient-Topher
 -force-d3d12
@@ -68,12 +68,12 @@ E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [21836]  Target information:
+Player connection [23168]  Target information:
 
-Player connection [21836]  * "[IP] 10.0.0.34 [Port] 0 [Flags] 2 [Guid] 4144975336 [EditorId] 4144975336 [Version] 1048832 [Id] WindowsEditor(7,Basestation) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23168]  * "[IP] 10.0.0.34 [Port] 0 [Flags] 2 [Guid] 1609308991 [EditorId] 1609308991 [Version] 1048832 [Id] WindowsEditor(7,Basestation) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21836] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23168] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,6 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
 Initialize engine version: 6000.4.1f1 (8535861f39e1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/IGB101/Assignment 3/IGB101 Assignment 3/Unity Project/Assets
@@ -102,30 +103,30 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Topher"
 [Licensing::IpcConnector] LicenseClient-Topher channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1" at "2026-05-31T02:37:19.6527107Z"
-Registering precompiled unity dll's ...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1" at "2026-05-31T04:37:17.3080076Z"
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              2e6c4e6e60dd4b469a247791e6563c56
-  Correlation Id:          4ddf9d12b48fcab00681b644d5023a0e
-  External correlation Id: 7012637409535136913
+  Session Id:              5458934169104b2d9d0fd6bbbaf5949b
+  Correlation Id:          56ed6f303a66c50b129709f648294ba6
+  External correlation Id: 7369391364982043006
   Machine Id:              iUDX2bORcETEJuoiLUZ8i8pfw80=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Topher-6000.4.1" (connect: 0.00s, validation: 0.00s, handshake: 0.98s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1-notifications" at "2026-05-31T02:37:20.6354468Z"
-[Licensing::Module] Licensing Background thread has ended after 2.26s
-[Licensing::Module] Licensing is initialized (took 0.84s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Topher-6000.4.1" (connect: 0.00s, validation: 0.00s, handshake: 1.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Topher-6000.4.1-notifications" at "2026-05-31T04:37:18.504872Z"
+[Licensing::Module] Licensing Background thread has ended after 2.48s
+[Licensing::Module] Licensing is initialized (took 1.20s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 16768250851423-UnityPersXXXX
@@ -134,7 +135,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/E
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.849580 seconds.
+Registered in 1.201581 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -149,23 +150,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.508 seconds
-Domain Reload Profiling: 1912ms
-	BeginReloadAssembly (181ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (924ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (178ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (202ms)
-	FinalizeReload (510ms)
+- Finished resetting the current domain, in  0.517 seconds
+Domain Reload Profiling: 2309ms
+	BeginReloadAssembly (166ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (1280ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (162ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (228ms)
+	FinalizeReload (519ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -177,7 +178,6 @@ Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSha
 Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
 Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
 Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
 Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
 Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
@@ -220,51 +220,436 @@ Native extension for WebGL target not found
 [MODES] Loading mode Default (0) for mode-current-id-Assignment 2
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.304 seconds
-Domain Reload Profiling: 2585ms
-	BeginReloadAssembly (275ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (810ms)
-		LoadAssemblies (520ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (277ms)
-				TypeCache.ScanAssembly (254ms)
-			BuildScriptInfoCaches (139ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1305ms)
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 1998ms
+	BeginReloadAssembly (198ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (655ms)
+		LoadAssemblies (409ms)
+		AnalyzeDomain (350ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (991ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (243ms)
-			ProcessInitializeOnLoadAttributes (522ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6718 unused Assets / (5.9 MB). Loaded Objects now: 7557.
-Memory consumption went from 161.1 MB to 155.2 MB.
-Total: 17.334100 ms (FindLiveObjects: 1.634600 ms CreateObjectMapping: 1.218000 ms MarkObjects: 10.157300 ms  DeleteObjects: 4.319300 ms)
+Unloading 6671 unused Assets / (5.5 MB). Loaded Objects now: 7512.
+Memory consumption went from 163.7 MB to 158.2 MB.
+Total: 9.226300 ms (FindLiveObjects: 0.689200 ms CreateObjectMapping: 0.379300 ms MarkObjects: 5.747000 ms  DeleteObjects: 2.408200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27530.986143 seconds.
-  path: Assets/Topher Assets/Scripts/DoorScript.cs
-  importAddress: Guid(8a9392014f843894da7de086937f7726) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Topher Assets/Scripts/DoorScript.cs using Guid(8a9392014f843894da7de086937f7726) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e7c2305416d404922f055af87d86b36') in 0.1853141 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b9ee524b3b75a824b17fd215e74b8c4 DependenciesID=53397510c5567a41515464554c19c1a2 StaticDependenciesID=ea0976ca4aff0643fc63384e560d2816 
+  Time since last request: 34725.719847 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (8).prefab
+  importAddress: Guid(85436259a02f98b46a04c868d4cfd2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (8).prefab using Guid(85436259a02f98b46a04c868d4cfd2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fde64f47c617fba4604182cfc82f0a3f') in 0.1474522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e39406783e31fed4f2acdcede6cd93e7 DependenciesID=bf7617ec122d4818810fa0e732649fc4 StaticDependenciesID=416070b37b9660ff61b91813413a0670 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Geometry
+  importAddress: Guid(e6bb8f8349b5f584688022dbb7ebf7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Geometry using Guid(e6bb8f8349b5f584688022dbb7ebf7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '116b0f689cac01fef771a2413fd1d405') in 0.0156208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c91817b520f91aeccf8850845de732e0 DependenciesID=cf3db87be609d7a43d6bb55a9f0eb93a StaticDependenciesID=e640eeabbe94323a91892f72e7d0f647 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jensen Assets/Third Person Controller/Animations/turn.fbx
+  importAddress: Guid(7cb7a8b4f30327248ad5733a76a070bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Third Person Controller/Animations/turn.fbx using Guid(7cb7a8b4f30327248ad5733a76a070bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fcb142a300e9a6f267766189374a92f3') in 0.1346739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8853cbc961bcf5fb0f391ccc306d67a DependenciesID=c732aaf2883fb7116daee319d674cf42 StaticDependenciesID=49e47f67ee4d28a32ba20997ef6b406e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Stones/Materials/M_YFPM_Blocs.mat
+  importAddress: Guid(102f422f73f382a48989da897532a678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Stones/Materials/M_YFPM_Blocs.mat using Guid(102f422f73f382a48989da897532a678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0fa8c0c629f37eb26b8b0104df6b8613') in 0.0175941 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d33ef54a1f8c728ffac72104eca078f DependenciesID=101fb994ffadb1fb8585259af600141c StaticDependenciesID=c16e78fe7610ed445e67aef40717b93d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Materials
+  importAddress: Guid(e0d0ad4a8bd89f849bcafa68736958c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Materials using Guid(e0d0ad4a8bd89f849bcafa68736958c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4fc16c1e1a8de7f6d26829e46afe4a96') in 0.015412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9dc9370d4c1afd28d4c6d67dc578aab DependenciesID=bac12257ff2e5935fd98d75fae032aec StaticDependenciesID=c09bbbe1b91783678b5be04bc1903b10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png
+  importAddress: Guid(2c3b502c3b0689e4c8b7f41463ed9197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png using Guid(2c3b502c3b0689e4c8b7f41463ed9197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6bb7812fc18dfeb7ad29d98f9ee384f') in 0.0487655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4617f7297806f0f0a0abd8763ea9a0f4 DependenciesID=3654c7583f1df3d41e9696a005250c1d StaticDependenciesID=e39eb171fbf8ee4282a961c1ed9ae1f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.mat
+  importAddress: Guid(9ea8f35b013d57543844fb8784445267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.mat using Guid(9ea8f35b013d57543844fb8784445267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0234fe30d0e25815610686032e440f04') in 0.0218454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a111c0922147b1fb21978bd3491b8e1 DependenciesID=4967447fd866ac03d094d7a57fb4886f StaticDependenciesID=15aa80c5456692ecf8bd71efa7f23080 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx
+  importAddress: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff8b6b09895cf181b3384f9b66420f04') in 0.0198564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1c4704b7250ea3ca436475bf5d52ded DependenciesID=bc857b89781814670cfd805c1f977bee StaticDependenciesID=b87647b74432f3d5be908249577d670e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Chest/coins.FBX
+  importAddress: Guid(dd8ebbdcc572196408a6805681c6a297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Chest/coins.FBX using Guid(dd8ebbdcc572196408a6805681c6a297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44c3b9a7e7ad62e16b29578a9889b645') in 0.0231575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b6c1942c9f87eefbac5b385deac3f9a DependenciesID=15b25d66ef876df95c3688b6ff0845d7 StaticDependenciesID=e29a72548250d3f37fe043072337c64a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar/ModelAndTextures/GuitarA_N.tga
+  importAddress: Guid(be1c0b5f008957f4792add00ca8db5c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar/ModelAndTextures/GuitarA_N.tga using Guid(be1c0b5f008957f4792add00ca8db5c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fcdfbce2f4222dd733bf7a5326473762') in 0.0214569 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20ac16aa03817a9ec489b557ee55d65c DependenciesID=5be61be31ccecd09cc4cd8e7fb47d38e StaticDependenciesID=ca1df6357bf6cd5ae9d89410f9c556de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (4).prefab
+  importAddress: Guid(e6bbaf2297b9038409733c2f1128003b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (4).prefab using Guid(e6bbaf2297b9038409733c2f1128003b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'af2291f9af40ba89ac4c7970e09cd53b') in 0.0179657 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c154abcd46620e7d9a5f51ed418ed67 DependenciesID=632e1c576a9e77f37e582ec4ed9e6af0 StaticDependenciesID=2607e6314ca6b767206954934e4f62ce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/GreatswordofFrozenNight/Textures/greatsword_of_fn_d.png
+  importAddress: Guid(8ceb9025d474adf4db8b54f7d5c12b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/GreatswordofFrozenNight/Textures/greatsword_of_fn_d.png using Guid(8ceb9025d474adf4db8b54f7d5c12b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f6f1cdd39340046a507658c98cf0294') in 0.0159997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ee21bb65d795713d60c3dda892514a9 DependenciesID=fddfec1faa477a83bf0173fcd271decf StaticDependenciesID=a228ece390dd8f056fb5b249aa3faa35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Scenes
+  importAddress: Guid(5b4b00709a7ebf34a9c5a84b6a0bcee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Scenes using Guid(5b4b00709a7ebf34a9c5a84b6a0bcee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1b586fa1a7ac2af9e7f9b7365356407') in 0.0131987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e420cb74ba01d58981f5601f088865a DependenciesID=91e0ef402b7c60dc1385f43b366325e7 StaticDependenciesID=c8e44d6adfab9467312c3579965a9078 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png
+  importAddress: Guid(22a90a0ad8a42554c892964288104240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png using Guid(22a90a0ad8a42554c892964288104240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69ce4548ff417008be9691776778b9aa') in 0.0173448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=190cc4a024bab527697c9a74798851f6 DependenciesID=4655c4be2e5a1d5788c77503f46c3d7c StaticDependenciesID=698324924d2bf5bc1d1949198ed8d6cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab
+  importAddress: Guid(74b669fe92fe9174ebae205152ac9e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab using Guid(74b669fe92fe9174ebae205152ac9e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9d015dc42fe8a3d841b03057c4551fe') in 0.0191642 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=588ebc898e4017d8605760aa52c78b24 DependenciesID=80c125619e5ac9f5b400071afa896c20 StaticDependenciesID=30de93ddf155885fc635ef50880fd9aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jensen Assets/Scripts/PlayerMovement.cs
+  importAddress: Guid(fbde36f4838806f4caf628ea6d698ae6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Scripts/PlayerMovement.cs using Guid(fbde36f4838806f4caf628ea6d698ae6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c181d6040eb88c6898cb31d641486682') in 0.0121376 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f8a49eb824152be57fc88053f347ae4 DependenciesID=d5e36b3a1915c8c1d24888e88af18cd5 StaticDependenciesID=5abd342387ef5985dae710355de57c9d 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6710 unused Assets / (5.9 MB). Loaded Objects now: 7559.
-Memory consumption went from 163.3 MB to 157.4 MB.
-Total: 11.867900 ms (FindLiveObjects: 0.778300 ms CreateObjectMapping: 0.528700 ms MarkObjects: 7.416900 ms  DeleteObjects: 3.142500 ms)
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Jensen Assets/Third Person Controller/Robot Kyle
+  importAddress: Guid(52af5d3fce611114abc679105a53cc23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Third Person Controller/Robot Kyle using Guid(52af5d3fce611114abc679105a53cc23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '601fcdd56d6f44d27dc27885b884a28f') in 0.0109725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e910eb531c1f7c086b9b0e5848f0ec9 DependenciesID=bd8dd21874ece155cb4dd5d5d162e0ac StaticDependenciesID=225cd149e731903972588c1a09f5fdf3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (1).prefab
+  importAddress: Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (1).prefab using Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3816e6daef3eb6c73797842e524bdb4') in 0.0170304 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e3a1e3f4a3de7fc632b925edbc4001f DependenciesID=7144714ae0c7b633062a323f23676f92 StaticDependenciesID=7a88976b5e28fc932a99e55321e508d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab
+  importAddress: Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab using Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '497b66d25e5ec9e0069aebfdf7b4b17d') in 0.0674574 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b22ef4c4eeba9046aebcf8073aed3ef DependenciesID=f3534ac5f42d8b9d4e0b4097071f72fc StaticDependenciesID=0b563b30bd8fc6d35c3d5744aa4662fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx
+  importAddress: Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e4a54f64936ee81f172787528a550c2') in 0.0203784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce0428912a8ad8ee8e6de55c87744298 DependenciesID=35ea5e00e54527ef6f3421e554c1e6a8 StaticDependenciesID=c3d60aa131ac68e56be7484dad303d8b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Jensen Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  importAddress: Guid(2cf346193ef88514eac6220bb6844ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(2cf346193ef88514eac6220bb6844ebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b3112511361e499be73a445c86d55a0') in 0.1092239 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd1a885387def968b45be08022817c2a DependenciesID=483edee0293933bcd4641bd5f0a0a785 StaticDependenciesID=d59ab3c66f35846265a5770fe82bebfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/_Recovery/0 (3).unity
+  importAddress: Guid(f332823fbd473e349afeb16baefd3428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/_Recovery/0 (3).unity using Guid(f332823fbd473e349afeb16baefd3428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ceb0349d95fc5a77403cfb1d0f41134c') in 0.036762 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2462b9cdce32ab54dc2eefc53c280b06 DependenciesID=12ac3c9ce5890c64142526c683e2b295 StaticDependenciesID=5462865f05ac132025255f216cb240cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx
+  importAddress: Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx using Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2ff2fd71a8c5333a87acc6a3b587993') in 0.0401653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8bf0638cf1fcc346437a316aca1ceb2 DependenciesID=532bce497340a85415387353ff814465 StaticDependenciesID=95020f4c27fca443541311eb753feb6e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Textures/T_door1_dmgd_MetallicSmoothness.png
+  importAddress: Guid(ab7f4a6fb813e934489b62d4ba9a2aff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Textures/T_door1_dmgd_MetallicSmoothness.png using Guid(ab7f4a6fb813e934489b62d4ba9a2aff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db5b812b2f073c564830d29669b57256') in 0.0331277 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93078336de54757d20cae70240f2e370 DependenciesID=6b516e9335df563fa6b4929ed6132884 StaticDependenciesID=34e0fc9dcaacfa849d3da037f2247262 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jensen Assets/Audio/Besaid (FINAL FANTASY X Original Soundtrack) Audio.mp3
+  importAddress: Guid(963fd07e9be52ef4584cf4a263f5660f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Audio/Besaid (FINAL FANTASY X Original Soundtrack) Audio.mp3 using Guid(963fd07e9be52ef4584cf4a263f5660f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecd8e424220d624eca276ba51a464587') in 0.0268345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a79dc8038abce9be46d2c1699935f9f DependenciesID=9989e705b2f323f22ecdb0863bb32c36 StaticDependenciesID=348a1f6b7d63849518b84bd6d938397e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (11).prefab
+  importAddress: Guid(307cc9eec417ffe429036fda0dfd8b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (11).prefab using Guid(307cc9eec417ffe429036fda0dfd8b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec433e83877f7a720213c583c32b8761') in 0.0302442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ecc4524386304d5b1e565f5bfb4f527d DependenciesID=5457e415ced2b5e160ba48a26019aec1 StaticDependenciesID=8d1e62aed83180a9d08aa45a71e5970a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar/ModelAndTextures/GuitarA.FBX
+  importAddress: Guid(8808cc2ab63070742bfab08784d69afa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar/ModelAndTextures/GuitarA.FBX using Guid(8808cc2ab63070742bfab08784d69afa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar/ModelAndTextures/GuitarA.FBX)
+ -> (Import Result ID: 'a80e19dff865488a9ec956600d9d635a') in 0.0291724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7cd4de44d354cfd6ebca0b34a9a5612 DependenciesID=13f29d13cf66bed2c4e05ac6feb316bd StaticDependenciesID=24fb4de9123f9c2d7537e63e881d000b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Jensen Assets/Skybox
+  importAddress: Guid(0a33f992e13add9438b6e744a7dad662) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Skybox using Guid(0a33f992e13add9438b6e744a7dad662) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93dda0d078522b29bf03dcbe723da164') in 0.0154754 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7c86cf19ad0ad894ede3b028cb2bddd DependenciesID=7772663b70c9bd0f0e1cfaec954cfb29 StaticDependenciesID=f76c4e18cea9f6cfc96b5d59c3ef5417 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.mat
+  importAddress: Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.mat using Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '040600b1949ba49f8bf24d1f9435f795') in 0.0258222 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08e3eb2918e0697c578d60c6e2bfee5d DependenciesID=db2624bc528a122f06443393863e6428 StaticDependenciesID=81458b3b8e0d7a69448acae151d3cd63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Prefabs/Door_1_dmgd_full.prefab
+  importAddress: Guid(2c2d3cee078aab24c9a8a83a45c6c88f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Prefabs/Door_1_dmgd_full.prefab using Guid(2c2d3cee078aab24c9a8a83a45c6c88f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '656adc5658708fe75d80bdc815cb30f1') in 0.0196023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=893d140eaa9408bebf1b82385ee531ce DependenciesID=bbbcba269ccba3b2a2a515dff84f6474 StaticDependenciesID=520741ea6b0dc72ae669c4f41ef40001 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (10).prefab
+  importAddress: Guid(011b6cd529bfaf543ad52857ad90de05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (10).prefab using Guid(011b6cd529bfaf543ad52857ad90de05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c769d57160f2c666fcb4e3d66aa56275') in 0.0304652 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da841e91367842bb6dd77d6dd893eaaf DependenciesID=964cb97017d6a57e157a07305286234a StaticDependenciesID=1d2c71be4445c49d0a1067a28f5163a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (1).prefab
+  importAddress: Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (1).prefab using Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd47b4bce5f5f4f9ae37b80662e2673f') in 0.0311491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab18b45f25751ea6c0bc79e2ecb4c7f5 DependenciesID=e3f62d62d7d4604607605aabf11bdf83 StaticDependenciesID=d7d6d4ce838c44c0da5c279a09c81df0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jensen Assets/ProBuilder Data
+  importAddress: Guid(7dce02e65506b3d4ab5a09ec10a9e4be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/ProBuilder Data using Guid(7dce02e65506b3d4ab5a09ec10a9e4be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5c89b10849b5fb2469708954a40698c') in 0.0191744 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=750ba30b8d1737ee78fd4c3a012e0d64 DependenciesID=a8f6b281d71727f8272b2fa7d60c17ad StaticDependenciesID=cfeac4786202bc129f60d3f2ab39fe9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Textures/T_door1_medium_AlbedoTransparency.png
+  importAddress: Guid(0e37f25462fef48429a359bdf0d51adc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Textures/T_door1_medium_AlbedoTransparency.png using Guid(0e37f25462fef48429a359bdf0d51adc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9290391ace85d43c66f2268c8f7d8965') in 0.0440693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b6f4c6651168c932f2f588811ff5520 DependenciesID=c3502ff5720bf92c9dea9f75084d37f6 StaticDependenciesID=da1171ba6c3b8af313d0c2f9c52ba317 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (2).prefab
+  importAddress: Guid(cce6101e8bd7c4c438018b97651df5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (2).prefab using Guid(cce6101e8bd7c4c438018b97651df5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5d6521779b4d2e97b08794115fc8918') in 0.0342485 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa3d5dcbfb836338c6545888f49eaa1b DependenciesID=df4fa36fb910a8e2ee7cbb42315c268c StaticDependenciesID=69bbaaeee55022846349fd5aa75d718c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar
+  importAddress: Guid(86fc8140590edb0429a2ac5db626ba48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Guitar/AcousticGuitar using Guid(86fc8140590edb0429a2ac5db626ba48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55a0cc08c8a351d8e73c28d2b731ee9e') in 0.0231675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cd4e77fdde9bd05a61758b1da14bc8b DependenciesID=ae873c265e178cc161cea2d06f022a1e StaticDependenciesID=dc6ed56435414fed0d355f3321627351 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.mat
+  importAddress: Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.mat using Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9e29d05e78d8d9fc43fb589be6e81372') in 0.02715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63466092f25f6fbc7e1857cf2c178f6d DependenciesID=ea27859d803e9bbe57d58e1949f73ea7 StaticDependenciesID=648628c22c1ccffab45755c45cc7972d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Chest
+  importAddress: Guid(c063ac3219e4ac34cb35813089193193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Chest using Guid(c063ac3219e4ac34cb35813089193193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ef2207fc5c22760e1dbc67ecf1fa8cc') in 0.0340562 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14c9619c1bac2f30b93de556e380ebc3 DependenciesID=032f709cb1be1456f82bb004316c4536 StaticDependenciesID=365c4dce3cbc0787fb29b5504c84849c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons
+  importAddress: Guid(ef53d737579d3014a95c2b67f94f85c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons using Guid(ef53d737579d3014a95c2b67f94f85c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdaf060485a8f03468f7c3c830ffd164') in 0.0144348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d4d0a1e36d5586fa400907ff86c649e DependenciesID=cdc84806021235e4521bd431bca1d1b7 StaticDependenciesID=997770f094eab4453fbe755ad5535d9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Materials/M_door1_dmgd.mat
+  importAddress: Guid(c4f075d5d5bbef444a436ece281ed421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Door/Wooden Double Door front handle entrance/Materials/M_door1_dmgd.mat using Guid(c4f075d5d5bbef444a436ece281ed421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8dd65962f8c4cb00391608d3ce8edd6c') in 0.0264286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=782b710ec64497e154214b8d0b16f99a DependenciesID=9d7925e59265e1c6b016ee93689cb7ab StaticDependenciesID=b2e14c739e897fb42065653cc2f0d743 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Smoothed Textures/Materials/smoothed wood.mat
+  importAddress: Guid(773b97feb7faa774b865d967557a74ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Smoothed Textures/Materials/smoothed wood.mat using Guid(773b97feb7faa774b865d967557a74ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ec0f3ddfe0aa0ca23d556127c87752c') in 0.0217685 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b14fe7d26b828d7be44a11731c82914b DependenciesID=2e5a7521a710285cec6ccafe7fa9d9bf StaticDependenciesID=6d64fb77bfc8a15ed1bdb6ed1cee9ead 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jensen Assets/_Recovery/0 (1).unity
+  importAddress: Guid(6633084ac438e7949993022243532913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/_Recovery/0 (1).unity using Guid(6633084ac438e7949993022243532913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f90fc3c3afded186c5da24a364e66fbf') in 0.0207201 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64c24e8d21e88a3e9806c4b17152daeb DependenciesID=e8b5f1a28d716f36900abfcee8dc7dad StaticDependenciesID=5b3cef5b46baa129573a96c0633b8d8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jensen Assets/Skybox/Panoramics/FS013/FS013_Sunrise.png
+  importAddress: Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Skybox/Panoramics/FS013/FS013_Sunrise.png using Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35349a0c2082753aa51af150da8f7396') in 0.0263174 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a51d87f2ad541173d9ac6a2e66064c97 DependenciesID=d8861d2feb8894c60bff9e886cf40614 StaticDependenciesID=69bd5a582bf0a4bef28613ee2f5aa774 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Logos/ff7logo.jpg
+  importAddress: Guid(464220a3f0e952b41a122a3c2c2725ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Logos/ff7logo.jpg using Guid(464220a3f0e952b41a122a3c2c2725ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31ea6e5e914d45953e9eb4814d430862') in 0.0275753 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e8e0e25af1d5e79048a7f63264861af DependenciesID=43e6c6e33e88bbfeb42a651e3fd49a8e StaticDependenciesID=063332dc44f07d00acf5d6e4c0bb38f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jensen Assets/Audio
+  importAddress: Guid(c1c93dc72d66fbb44b8cc1009df7c92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Audio using Guid(c1c93dc72d66fbb44b8cc1009df7c92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '156c0a2614dba5908eef352a3739cd47') in 0.0201607 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1844d531f23681cd03b71959fb0ee99 DependenciesID=baafab9634330fcd605f7e41488c4553 StaticDependenciesID=26ab897b31109f38128a7433b4e9a6c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Logos/Materials/ff7logonobg.mat
+  importAddress: Guid(ff2d5ff6f2906cb4c894a782e33960ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Logos/Materials/ff7logonobg.mat using Guid(ff2d5ff6f2906cb4c894a782e33960ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d5659c764c6e7e9a8008727b37b46d1') in 0.0152505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32ec0442c73fc8407b16417b401eb237 DependenciesID=6a2d8854f1dde25f4c20a8ab1114763e StaticDependenciesID=d0d5c133963a62a2569a80372d34be4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-02.mat
+  importAddress: Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-02.mat using Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab14aa5cbea30a58a45365eaf0e83df8') in 0.0187974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14e381220234ef8e8f3ebbcb4cd21af5 DependenciesID=cae63419a8e35c52467a21e38acaa98d StaticDependenciesID=3ad331102483bcd73a750e8d7cb350a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Concrete/Materials/Clean_Concrete_GroundAO.png
+  importAddress: Guid(d87c7a3cb1d3f814dbe6a6aa63deeddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Concrete/Materials/Clean_Concrete_GroundAO.png using Guid(d87c7a3cb1d3f814dbe6a6aa63deeddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bed18cebacd5a151937bbb2db63a5a9') in 0.0177964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=262443f81ce8d6e2cd55fab5634a6ec1 DependenciesID=4bd094f50a93ed6688696cf71ef5b888 StaticDependenciesID=31539781edfb15b7daffa38d219f8e60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Fire/Fireball.psd
+  importAddress: Guid(dfdeffca3c434bd4aac37c7d7b221e7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Fire/Fireball.psd using Guid(dfdeffca3c434bd4aac37c7d7b221e7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6780e271bfe2129fb5284f15b332694') in 0.0193872 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=469d4eae103736bc4fd5b2c64404f82d DependenciesID=f80390b0af41b4c97d781c841ff61058 StaticDependenciesID=eb5fa52c5c108963a0b9581efaea5b74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jensen Assets/Materials and Textures/Logos
+  importAddress: Guid(ad851420f54d1194fa14355b92f7b2a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Jensen Assets/Materials and Textures/Logos using Guid(ad851420f54d1194fa14355b92f7b2a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1eb1616bd6513a6ec9363518e3ea8cd9') in 0.0136067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fa2f082ec9c68655cefa85a5f6570b6 DependenciesID=9614775967b0cec062f1db8a4ab89a2c StaticDependenciesID=5cdca3b36abfbb1777d069e761a27bc3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

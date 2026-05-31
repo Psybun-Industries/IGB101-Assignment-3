@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CursorScript : MonoBehaviour
+public class TopherCursorScript : MonoBehaviour
 {
     // Use this for initialization
     void Start()

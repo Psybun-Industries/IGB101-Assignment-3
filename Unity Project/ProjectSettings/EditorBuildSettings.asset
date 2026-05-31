@@ -5,8 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Topher - IGB101 Assignment Level.unity
+  - enabled: 0
+    path: Assets/Jensen Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Topher - Assignment Level.unity
+    guid: 4a5a11d3b9e003a4cbc59fc4a276c4c6
+  - enabled: 1
+    path: Assets/Scenes/IFB101 Scene Final.unity
+    guid: d8a1427bfb37b3747aa366f2dd2825fb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

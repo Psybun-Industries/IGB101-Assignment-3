@@ -52,19 +52,29 @@
     <Compile Include="Assets\Topher Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\Exit.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Topher Assets\Assignment 3 provided materials\Third Person Controller\PlayerMovement.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\AutomaticCameraMovement.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\CubeEffects.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\Cursor.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Topher Assets\Assignment 3 provided materials\Third Person Controller\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\TV.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Topher Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Jensen Assets\Scripts\ThirdPersonCamera.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Jensen Assets\Skybox\Readme.txt" />
+    <None Include="Assets\Jensen Assets\Skybox\ReleaseNotes.txt" />
     <None Include="Assets\Topher Assets\Scripts\New Custom Render Texture.shader" />
+    <None Include="Assets\Jensen Assets\Materials and Textures\GreatswordofFrozenNight\SpecLightDiffuse.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1131,10 +1141,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.UI.Analytics">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
       <Private>False</Private>
@@ -1167,12 +1173,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
@@ -1243,10 +1249,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1269,10 +1271,6 @@
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1323,16 +1321,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.PathTracing.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1377,6 +1367,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj" />
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj" />
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj" />
+    <ProjectReference Include="Unity.ProBuilder.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

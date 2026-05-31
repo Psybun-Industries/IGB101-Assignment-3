@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameManager : MonoBehaviour
+public class TopherGameManager : MonoBehaviour
 {   
     public GameObject player;
 
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     //Audio Proximity Logic
     public AudioSource[] audioSources;
-    public float audioProximity = 100.0f;
+    public float audioProximity = 50.0f;
 
     private GameObject currentFocusTarget;
 
@@ -98,21 +98,25 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < audioSources.Length; i++)
         {
-            float distance = Vector3.Distance(player.transform.position, audioSources[i].transform.position);
-            if (distance <= audioProximity)
+            if (audioSources[i] != null)
             {
-                if (!audioSources[i].isPlaying)
+                float distance = Vector3.Distance(player.transform.position, audioSources[i].transform.position);
+                if (distance <= audioProximity)
                 {
-                    audioSources[i].Play();
-                    Debug.Log($"Playing audio {i} at distance {distance}");
+                    if (!audioSources[i].isPlaying )
+                    {
+                        audioSources[i].Play();
+                        Debug.Log($"Playing audio {i} at distance {distance}");
+                    }
                 }
-            }
-            else
-            {
-                if (audioSources[i].isPlaying)
+                
+                else
                 {
-                    audioSources[i].Stop();
-                    Debug.Log($"Stopping audio {i} at distance {distance}");
+                    if (audioSources[i].isPlaying)
+                    {
+                        audioSources[i].Stop();
+                        Debug.Log($"Stopping audio {i} at distance {distance}");
+                    }
                 }
             }
         }

@@ -11,7 +11,7 @@ public class ExitScript : MonoBehaviour
     private MeshCollider exitMesh;
     private Light exitLight;
     private Camera playerCamera;
-    private GameManager gm;
+    private TopherGameManager gm;
     private Transform playerTransform;
 
     void Start()
@@ -23,7 +23,7 @@ public class ExitScript : MonoBehaviour
             exitLight.enabled = false;
 
         playerCamera = Camera.main;
-        gm = FindObjectOfType<GameManager>();
+        gm = FindObjectOfType<TopherGameManager>();
         playerTransform = gm != null ? gm.player?.transform : null;
     }
 

@@ -7,7 +7,7 @@ public class DoorScript : MonoBehaviour
     private MeshCollider doorMesh;
     private Light doorLight;
     private Camera playerCamera;
-    private GameManager gm;
+    private TopherGameManager gm;
     private Transform playerTransform;
 
     void Start()
@@ -19,7 +19,7 @@ public class DoorScript : MonoBehaviour
             doorLight.enabled = false;
 
         playerCamera = Camera.main;
-        gm = FindObjectOfType<GameManager>();
+        gm = FindObjectOfType<TopherGameManager>();
         playerTransform = gm != null ? gm.player?.transform : null;
     }
 
@@ -59,7 +59,7 @@ public class DoorScript : MonoBehaviour
         Ray ray = playerCamera.ScreenPointToRay(screenCenter);
         Debug.DrawRay(ray.origin, ray.direction * 20f, Color.red);
 
-        RaycastHit[] hits = Physics.RaycastAll(ray, 50f);
+        RaycastHit[] hits = Physics.RaycastAll(ray, 35f);
         System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
 
         bool hitDoor = false;

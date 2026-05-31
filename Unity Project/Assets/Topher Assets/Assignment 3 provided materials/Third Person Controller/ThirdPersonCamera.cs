@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ThirdPersonCamera : MonoBehaviour {
+public class ThirdKyleCamera : MonoBehaviour {
 
     public Transform CameraTarget;
 	private float x = 0.0f;

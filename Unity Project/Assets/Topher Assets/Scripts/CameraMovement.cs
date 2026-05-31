@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour{
+public class TopherCameraMovement : MonoBehaviour{
 
 
     public GameObject[] cameraNodes;
